@@ -11,3 +11,13 @@ script:
   - coverage run --source=mysite,polls manage.py test
 after_script:
   - coveralls
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "AKIA5KPGKBUHD55WHFX3"
+  secret_access_key:
+    secure: "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"
+  region: "us-east-1"
+  app: "mysiteCICD1"
+  env: "mysiteCICD1-env"
+  bucket_name: "mysiteCICD1-bucket"
