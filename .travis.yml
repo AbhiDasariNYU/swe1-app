@@ -21,3 +21,6 @@ deploy:
   app: "mysiteCICD1"
   env: "mysiteCICD1-env"
   bucket_name: "mysiteCICD1-bucket"
+  branches:
+    only:
+      - main
