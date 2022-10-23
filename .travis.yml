@@ -18,6 +18,6 @@ deploy:
   region: "us-east-1"
   app: "mysiteCICD1"
   env: "mysiteCICD1-env"
-  bucket_name: "mysiteCICD1-bucket"
+  bucket_name: "mysitecicd12-bucket"
   on:
     all_branches: true
