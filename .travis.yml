@@ -16,8 +16,8 @@ deploy:
   access_key_id: "AKIA5KPGKBUHJMV7E467"
   secret_access_key: "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"
   region: "us-east-1"
-  app: "mysiteCICD1"
-  env: "mysiteCICD1-env"
+  app: "mysitecicd1"
+  env: "mysitecicd1-env"
   bucket_name: "mysitecicd12-bucket"
   on:
     all_branches: true
